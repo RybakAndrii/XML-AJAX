@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+.movie-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#pagination {
+  margin-top: 20px;
+}
+
+.page-btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+#movie-details {
+  margin-top: 20px;
+}
